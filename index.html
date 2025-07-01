@@ -47,15 +47,25 @@
             text-align: center;
             line-height: 1.8;
         }
+        
+        .link-item {
+            cursor: pointer;
+            text-decoration: none;
+            color: #00ff00;
+        }
+        
+        .link-item:hover {
+            text-shadow: 0 0 5px #00ff00;
+        }
     </style>
 </head>
 <body>
     <canvas id="matrix" class="matrix"></canvas>
     <div class="title">Sherlock Mirrors</div>
     <div class="links">
-        1. t.me/<br>
-        2. t.me/<br>
-        3. t.me/
+        <div class="link-item" onclick="window.open('https://t.me/@httpshhddotpt52555hushfbot', '_self')">1. @</div>
+        <div class="link-item" onclick="window.open('https://t.me/@JGmmPuRttGvQnbot', '_self')">2. @</div>
+        <div class="link-item" onclick="window.open('https://t.me/@YoGuAlGvpHbAqFbot', '_self')">3. @</div>
     </div>
 
     <script>
